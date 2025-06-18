@@ -143,15 +143,15 @@ class _ResponsiveScopeState extends State<ResponsiveScope>
         );
       }
 
-     /// Initialize UnifiedScale here before usage
-    _UnifiedScale().init(
-      context: context,
-      mode: ScaleMode.smart, // Choose Smart, Design, or Percent scaling
-      designSize: const Frame(width: 375, height: 812),
-      maxMobileWidth: 600,
-      maxTabletWidth: 1024,
-      debugLog: true, // Enable logging for debugging
-    );
+      /// Initialize UnifiedScale here before usage
+      _UnifiedScale().init(
+        context: context,
+        mode: ScaleMode.smart, // Choose Smart, Design, or Percent scaling
+        designSize: const Frame(width: 375, height: 812),
+        maxMobileWidth: 600,
+        maxTabletWidth: 1024,
+        debugLog: true, // Enable logging for debugging
+      );
     }
   }
 
@@ -180,14 +180,6 @@ class _ResponsiveScopeState extends State<ResponsiveScope>
     }
 
     return wrapped;
-  }
-
-  Frame _getDesignFrame(Orientation orientation) {
-    final frame = widget.designFrame;
-    if (frame != null && frame.width > 0 && frame.height > 0) {
-      return orientation == Orientation.landscape ? frame.reversed : frame;
-    }
-    return const Frame(width: 360, height: 800);
   }
 
   static ScreenType _resolveScreenType(

@@ -127,7 +127,6 @@ $cyan━━━━━━━━━━━━━━━━━━━━━━━━━
   }
 }
 
-
 /// Hey there, developer!  👋
 /// If you're reading this, it means you're exploring the source code.
 /// That's awesome! Keep up the good work! 🚀
@@ -168,7 +167,6 @@ class AuthorSpeech {
     '🔹 Debugging is like being the detective in a crime movie where you are also the murderer!',
   ];
 }
-
 
 class _BlueScreenOfDeath extends StatelessWidget {
   final FlutterErrorDetails details;

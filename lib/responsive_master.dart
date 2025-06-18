@@ -62,5 +62,3 @@ part 'src/res/col.dart';
 part 'src/res/container.dart';
 part 'src/res/row.dart';
 part 'src/res/visibility.dart';
-
-
