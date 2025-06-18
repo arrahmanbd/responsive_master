@@ -1,5 +1,5 @@
 name: responsive_master
-description: "A new Flutter package project."
+description: "Responsive Master is a powerful Flutter package designed to simplify responsive UI development. It provides a modular, scalable system with intuitive units and a Bootstrap-style grid for creating layouts that adapt smoothly across screens and devices."
 version: 1.0.0
 homepage: https://github.com/arrahmanbd/responsive_master
 repository: https://github.com/arrahmanbd/responsive_master
