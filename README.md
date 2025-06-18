@@ -7,7 +7,12 @@
 
 **Responsive Master** is a powerful Flutter package designed to simplify responsive UI development. It provides a modular, scalable system with intuitive units and a Bootstrap-style grid for creating layouts that adapt smoothly across screens and devices.
 
+> This is a standalone module powered by the [`flutter_addons`](https://github.com/arrahmanbd/flutter_addons)  framework.  
+> It focuses exclusively on responsive layout and scaling utilities, making it easy to integrate into any Flutter project for building adaptive and consistent UIs.   
+> 📦 [View on pub.dev »](https://pub.dev/packages/flutter_addons)
+
 [![pub package](https://img.shields.io/pub/v/flutter_addons.svg)](https://pub.dev/packages/flutter_addons)
+
 
 ---
 
